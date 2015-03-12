@@ -1,0 +1,41 @@
+# Habilitar o PHP 5.3
+AddType application/x-httpd-php53 .php
+
+RewriteEngine On
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_FILENAME} !-d
+
+# BLOG
+RewriteCond %{HTTP_HOST} ^(www\.)?blog.mariadebarro.com.br
+RewriteRule posts(.*)$ index.php/posts$1 [L]
+
+# WEBSITE
+RewriteCond %{REQUEST_FILENAME} (google|humans\.txt|robots\.txt)
+RewriteRule ^(.*)$ $1 [L]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?mariadebarro.com.br$
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R,L]
+
+RewriteRule web-files\/(.*)$ /homolog/web-files\/$1 [L]
+RewriteRule application\/(.*)$ /homolog/application\/$1 [L]
+RewriteRule libraries\/(.*)$ /homolog/libraries\/$1 [L]
+RewriteRule pagamento\/?$ /homolog/pagamento\/ [L]
+RewriteRule pagamento\/(.*)$ /homolog/pagamento\/$1 [L]
+RewriteRule system\/(.*)$ /homolog/system\/$1 [L]
+RewriteRule soon\/(.*)$ /homolog/soon\/$1 [L]
+RewriteRule 404\/(.*)$ /homolog/web-files/404/index.html [L]
+RewriteRule 403\/(.*)$ /homolog/web-files/404/index2.html [L]
+
+RewriteRule ^(.*)$ /homolog/index.php?url=$1 [L]
+
+
+
+#ErrorDocument 404 /homolog/web-files/error/index.html
+#ErrorDocument 403 /homolog/web-files/error/index2.html
+#ErrorDocument 401 /homolog/401.php
+
+
+
+

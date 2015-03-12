@@ -1,0 +1,205 @@
+<?php
+require("header.phtml");
+?>
+
+
+<div class="content">
+    
+    <div class="row">
+        <div class="col-md-12">
+
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h2><span class="label label-default">Visualizar Pedido</span></h2>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+    <h3>1. Dados do comprador</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default"> 
+                <table class="table" style="font-size: 14px">
+                    
+                    <tr>
+                        <td>Nome:</td>
+                        <td><?php echo $view_cadastro->NOME; ?></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><?php echo $view_cadastro->EMAIL; ?></td>
+                    </tr>
+                    <tr>
+                        <td>Data de nascimento:</td>
+                        <td><?php echo $view_cadastro->NASCIMENTO; ?></td>
+                    </tr>
+                    <tr>
+                        <td>Sexo:</td>
+                        <td><?php echo $view_cadastro->SEXO; ?></td>
+                    </tr>
+                    <tr>
+                        <td>Telefone:</td>
+                        <td>(<?php echo $view_cadastro->DDD; ?>) <?php echo $view_cadastro->TELEFONE; ?> <?php echo ", Ramal: {$view_cadastro->RAMAL}"; ?></td>
+                    </tr>
+                   
+                </table>
+            </div>
+        </div>
+    </div>
+    
+     <h3>2. Endereço de Entrega</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default"> 
+                <table class="table" style="font-size: 14px"> 
+                    <tr>
+                        
+                        <td>CEP:</td>
+                        <td><?php echo $view_endereco->CEP; ?></td> 
+                        
+                    </tr>    
+                    <tr> <td>Endereço:</td><td><?php echo $view_endereco->LOGRADOURO; ?>, nº <?php echo $view_endereco->NUMERO; ?> <?php if( $view_endereco->COMPLEMENTO != ""){ echo "- {$view_endereco->COMPLEMENTO}"; } ?></td> </tr>
+                    <tr> <td>Bairro:</td><td><?php echo $view_endereco->BAIRRO; ?></td> </tr>
+                    <tr> <td>Cidade/UF:</td><td><?php echo $view_endereco->CIDADE; ?>/<?php echo $view_endereco->UF; ?></td> </tr>
+                    
+                </table>
+            </div>
+        </div>
+    </div>            
+    
+    <h3>3. Produtos escolhidos</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default"> 
+                <table class="table" style="font-size: 14px">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nome do Produto</th>
+                            <th>Categoria</th>
+                            <th>Referência</th>
+                            <th>Preço Unitário</th>
+                            <th>Peso Unitário</th>
+                            <th>Peso Total</th>
+                            <th style="width: 11%;">Quantidade</th>
+                            <th style="width: 8%;">Total</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <?php if( $nenhum_produto == true){ ?>    
+                            <tr>
+                                <th colspan="8">Nenhum produto na sua Lista de Desejos!</th>
+                            </tr>
+                        <?php } else { ?>    
+                            <?php foreach ( $view_compras  as $lista_desejo) { ?>  
+
+                                <tr>
+                                    <td><a href="https://www.mariadebarro.com.br/pt/descricao/categoria/<?php echo $lista_desejo->CATEG; ?>/<?php echo $lista_desejo->URL_AMIGAVEL; ?>"><img src="<?php echo "https://www.mariadebarro.com.br/{$lista_desejo->FOTO}"; ?>" alt="<?php echo $lista_desejo->NOME; ?>" title="<?php echo $lista_desejo->NOME; ?>" border="0"/></a><br/></td>
+                                    <td style="text-transform: uppercase;"><?php echo $lista_desejo->NOME; ?></td>
+                                    <td><?php echo $lista_desejo->CATEGORIA; ?></td>
+                                    <td><?php echo $lista_desejo->REFERENCIA; ?></td>
+                                    <td><?php echo $lista_desejo->PRECO; ?></td>
+                                    <td><?php echo $lista_desejo->PESO; ?></td>
+                                    <td id="peso_total_produto_<?php echo $lista_desejo->CODLISTADESEJOS; ?>"><?php echo $lista_desejo->PESO_TOTAL; ?></td>
+                                    <td id="n_input" align="center"><?php echo $lista_desejo->QUANTIDADE; ?></td>
+                                    <td  id="preco_total_produto_<?php echo $lista_desejo->CODLISTADESEJOS; ?>"> <?php if( $lista_desejo->TOTAL == ""){ echo "0,00"; } else { echo $lista_desejo->TOTAL; } ?></td>
+                                </tr>
+
+                            <?php } ?> 
+                        <?php } ?>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <h3>4. Dados da Transação</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default"> 
+
+                
+                    <table class="table">    
+                        <tr>
+                            <td>Código da transação:</td>
+                            <td><?php echo $view_pedido->CODPEDIDO; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Código do cliente:</td>
+                            <td><?php echo $view_pedido->CODCADASTRO; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Número do Pedido:</td>
+                            <td><?php echo $view_pedido->N_PEDIDO; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Data e hora da transação:</td>
+                            <td><?php echo $view_pedido->DTA; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Forma de envio:</td>
+                            <td><?php echo $view_pedido->FORMA_ENVIO; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Forma de pagamento:</td>
+                            <td><?php echo $view_pedido->FORMA_PGTO; ?></td>
+                        </tr>
+                        <?php if( $view_pedido->FORMA_PGTO == "boleto" ) { ?>  
+                        <tr>
+                            <td>Nosso Número:</td>
+                            <td><?php echo $view_pedido->NOSSO_NUMERO; ?></td>
+                        </tr>    
+                        <?php } ?>
+                        
+                        <?php if( $view_pedido->TAXA_ENTREGA != "" || $view_pedido->FORMA_ENVIO != "Retirada na Loja") { ?>  
+                        <tr>
+                            <td>Total da compra:</td>
+                            <td><?php echo $view_pedido->TOTAL_PARCIAL; ?></td>
+                        </tr>
+                        <?php } ?>
+                        <tr>
+                            <td>Taxa de entrega:</td>
+                            <td>
+                            
+                                <?php if ($view_pedido->TAXA_ENTREGA == "" && $view_pedido->FORMA_ENVIO == "Retirada na Loja"){ 
+                                    echo "--";
+                                } else {
+                                    if( $view_pedido->TAXA_ENTREGA == "" ){
+                                        echo "Grátis";
+                                    } else {
+                                        echo $view_pedido->TAXA_ENTREGA;
+                                    }
+                                }
+                                
+                                ?>
+                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Imposto:</td>
+                            <td><?php echo $view_pedido->IMPOSTOS; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Total à pagar:</td>
+                            <td><?php echo $view_pedido->TOTAL_GERAL; ?></td>
+                        </tr>
+                    </table>   
+                
+
+            </div>
+        </div>           
+    </div>
+     
+    
+  
+</div>                          
+
+
+<?php
+require("footer.phtml");
+?>

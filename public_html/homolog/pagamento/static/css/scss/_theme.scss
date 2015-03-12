@@ -1,0 +1,161 @@
+/* Theme */
+
+.navbar-default{
+    background-color: #fff;
+    border:none;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    height: $navbar-height;
+}
+
+.navbar-header{}
+
+.navbar-default .navbar-nav{}
+.navbar-default .navbar-nav > li{}
+.navbar-default .navbar-nav > li.active > a{
+    color: $primary;
+    background: none;
+    border-bottom: solid 5px $primary;
+}
+.navbar-default .navbar-nav > li > a{
+    padding: 0 20px;
+    height: $navbar-height;
+    line-height: $navbar-height;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    @include transition(.1s linear);
+}
+
+.navbar-default .navbar-nav > li > a{
+    &:hover,&:focus,&:active{
+        background: none;
+    }
+}
+
+.navbar-default .navbar-nav > li.active > a{
+    &:hover,&:focus,&:active{
+        color: $primary;
+        background: none;
+    }
+}
+
+h1, .h1, h2, .h2, h3, .h3{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.btn{
+    border: none;
+    border-radius: 0;
+    padding: 12px 28px;
+}
+.btn-primary{
+    padding: 12px 28px;
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background: $primary;
+    border: solid 2px $primary;
+    text-transform: uppercase;
+    @include transition(.1s ease);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active{
+    color: $primary;
+    background: transparent;
+    border: solid 2px #c3c3c3;
+    border-style: dashed;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.btn-default{
+    position: relative;
+    padding: 8px 22px;
+    color: #6a6a6a;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background: none;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    border: solid 2px #c3c3c3;
+    overflow: hidden;
+    @include transition(.22s ease);
+
+    &:before{
+        content: "\e6d0";
+        position: absolute;
+        right: -50px;
+        top: 8px;
+        font-family: 'entype';
+        font-size: 16px;
+        font-size: 1.6rem;
+        @include transition(right .22s ease);
+    }
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active{
+    color: #fff;
+    background-color: $primary;
+    padding-right: 40px;
+    border-color: $primary;
+    box-shadow: none !important;
+    outline: none !important;
+
+    &:before{
+        right: 10px;
+    }
+}
+
+.btn-rounded{
+    border-radius: 50px;
+}
+
+.navbar .brand{
+    position: relative;
+    margin-top: 14px;
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    background: url(http://placehold.it/150x60) no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    text-indent: -9999rem;
+}
+
+.form-control{
+    border-radius: 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #2a2a2a;
+    padding: 20px;
+}
+
+.form-control:focus,
+.form-control:active{
+    box-shadow: none;
+    border-color: $primary;
+}
+
+.form-group{
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 20px;
+    vertical-align: top;
+}
+
+textarea.form-control{
+    resize: vertical;
+    min-height: 100px;
+}

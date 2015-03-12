@@ -1,0 +1,5 @@
+[08-Oct-2014 16:04:15] PHP Fatal error:  Uncaught OAuthBaseException: Error validating application. Application has been deleted.
+  thrown in /home/maria951/public_html/novo/system/helpers/facebook-php-sdk-master/src/base_facebook.php on line 1325
+[08-Oct-2014 16:14:57] PHP Warning:  require(facebook-sdk/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/maria951/public_html/novo/system/helpers/facebook-php-sdk-master/examples/example2.php on line 3
+[08-Oct-2014 16:14:57] PHP Warning:  require(facebook-sdk/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/maria951/public_html/novo/system/helpers/facebook-php-sdk-master/examples/example2.php on line 3
+[08-Oct-2014 16:14:57] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'facebook-sdk/facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/maria951/public_html/novo/system/helpers/facebook-php-sdk-master/examples/example2.php on line 3

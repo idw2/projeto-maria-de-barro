@@ -1,0 +1,93 @@
+/* Media */
+
+
+@media screen and (min-width: $desktop){}
+
+@media screen and (min-width: $lg-desktop){}
+
+@media screen and (min-width: $tablet){}
+
+@media screen and (min-width: $mobile){
+    .text-sm-right{ text-align: right !important; }
+}
+
+
+
+@media screen and (max-width: $lg-desktop-max){}
+
+@media screen and (max-width: $desktop-max){
+    .navbar-default .navbar-nav > li > a{
+        padding: 0 12px;
+        font-size: 10px;
+        font-size: 1rem;
+    }
+    .navbar .brand{
+        margin-top: 18px;
+        height: 68px;
+        width: 132px;
+        background-size: 132px 88px;
+    }
+    .navbar-scrolling .navbar .brand{
+        top: -116px;   
+    }
+    .navbar-scrolling .navbar-header{
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: $tablet-max){
+
+}
+
+@media screen and (max-width: $menu-break){
+    .hamburger, .mobile-menu{
+        display: inline-block;
+    }
+    .navbar .brand{
+        margin-top: 0;
+        top: 8px;
+        left: 15px;
+        height: 50px;
+    }
+    .navbar-default,
+    .navbar-header{height: 68px;}
+    .navbar-scrolling .navbar-header{ height: 68px; }
+    .navbar-scrolling .navbar .brand { top: 8px;height: 50px; }
+
+    body{
+        @include transition(0.2s);
+    }
+
+    .menu-open{
+        @include transform(translate3d(0,288px,0));
+
+        .navbar-fixed-top{ position: absolute; top: 0; }
+    }
+    .pag-section-home{
+        padding-top: 28px;
+    }
+    .painel-floating-home{
+        position: relative;
+        display: block;
+        bottom: inherit;
+        top: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .painel-highlight .painel-highlight-left,
+    .painel-highlight .painel-highlight-right{ width: 100%; }
+    .painel-highlight h3,
+    .painel-highlight h4{
+        font-size: 18px;
+        font-size: 1.8rem;
+        line-height: 22px;
+        line-height: 2.2rem;
+        padding: 15px 0;
+    }
+    #footer .footer-bottom p{
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+}

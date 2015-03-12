@@ -1,0 +1,51 @@
+
+@mixin transform($val){
+    -webkit-transform: $val;
+    -moz-transform: $val;
+    -ms-transform: $val;
+    -o-transform: $val;
+    transform: $val;
+}
+
+@mixin transition($time...){
+    -webkit-transition: $time;
+    -moz-transition: $time;
+    -ms-transition: $time;
+    -o-transition: $time;
+    transition: $time;
+}
+
+@mixin anim-spin($duration){
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: $duration;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: $duration;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: $duration;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@mixin set_button($color){
+    color: #fff;
+    border-color: $color;
+    background: $color;
+    width: auto;
+    opacity: 1;
+    @include transition(background-color 0.2s, border-color 0.2s, color 0.2s);
+    &:hover,&:active,&:focus{
+        color: #fff;
+        border-color: darken($color, 5%);
+        background-color: darken($color, 5%);
+    }
+}

@@ -1,0 +1,1 @@
+<?php require("web-files/404/index.html"); ?>

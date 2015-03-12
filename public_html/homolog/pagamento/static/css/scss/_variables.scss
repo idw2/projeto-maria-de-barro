@@ -1,0 +1,47 @@
+/* Variables */
+
+@import "_mixins.scss";
+
+// GRID
+
+$lg-desktop: 1200px !default;
+$lg-desktop-max: $lg-desktop - 1 !default;
+
+$desktop: 992px !default;
+$desktop-max: $desktop - 1 !default;
+
+$tablet: 768px;
+$tablet-max: $tablet - 1 !default;
+
+$mobile: 480px;
+$mobile-max: $mobile - 1 !default;
+
+$menu-break: $tablet !default;
+
+$navbar-height: 86px;
+
+// CORES
+
+$cinza1: #4a4a4a;
+$cinza2: #7C7C7C;
+$cinza3: #e3e3e7;
+$cinza4: #e7e7e7;
+
+$mobile-menu-width: 250px;
+$mobile-menu-bg: #f5f5f5;
+$mobile-menu-header-bg: #fff;
+
+$primary: #E25F66;
+$default: #f5f5f5;
+$info: #4ebbdb;
+$success: #53b953;
+$warning: #f3aa41;
+$danger: #e45847;
+
+$facebook: #3B5998;
+$twitter: #55ACEE;
+$gplus: #DD4B39;
+
+// FONTS
+
+$font-condensed: 'Roboto Condensed', sans-serif;

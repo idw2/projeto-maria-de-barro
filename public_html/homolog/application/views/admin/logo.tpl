@@ -1,0 +1,1 @@
+<img class="area-restrita img-responsive center-block" src="{$web_files}/img/logo.png" alt="" border="0" title="" />

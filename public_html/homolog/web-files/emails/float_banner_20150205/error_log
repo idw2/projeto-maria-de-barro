@@ -1,0 +1,6 @@
+[06-Feb-2015 14:21:25 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'The email parameter should include an email, euid, or leid key' in /home/maria951/public_html/homolog/web-files/emails/float_banner_20150205/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner_20150205/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner_20150205/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner_20150205/src/Mailchimp.php on line 253

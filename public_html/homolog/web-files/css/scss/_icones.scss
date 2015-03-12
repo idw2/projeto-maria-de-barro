@@ -1,0 +1,47 @@
+/* Icones */
+
+
+.icone{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-size: 48px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icone.icone-48{
+    width: 48px;
+    height: 48px;
+    background-size: 48px;
+}
+
+.icone-anel{
+    background: url(../img/assets/icones/icone-anel.png) no-repeat center center / 48px 48px;
+    background-image: url(../img/assets/icones/icone-anel.svg);
+}
+
+.icone-brinco{
+    background: url(../img/assets/icones/icone-brinco.png) no-repeat center center / 48px 48px;
+    background-image: url(../img/assets/icones/icone-brinco.svg);
+}
+
+.icone-pulseira{
+    background: url(../img/assets/icones/icone-pulseira.png) no-repeat center center / 48px 48px;
+    background-image: url(../img/assets/icones/icone-pulseira.svg);
+}
+
+.icone-colar{
+    background: url(../img/assets/icones/icone-colar.png) no-repeat center center / 48px 48px;
+    background-image: url(../img/assets/icones/icone-colar.svg);
+}
+
+.icone-desconto{
+    background: url(../img/assets/icones/icone-desconto.png) no-repeat center center / 48px 48px;
+    background-image: url(../img/assets/icones/icone-desconto.svg);
+}
+
+.icone-home{
+    background: url(../img/assets/icones/icone-home.png) no-repeat center center / 48px 48px;
+    background-image: url(../img/assets/icones/icone-home.svg);
+}

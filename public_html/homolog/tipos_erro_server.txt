@@ -1,0 +1,56 @@
+---
+Códigos de Erro no Cliente 
+400 Bad Request 
+401 Unauthorized 
+402 pagamento obrigatório 
+403 Proibido 
+404 Not Found 
+405 Método não permitido 
+406 Not Acceptable 
+407 Proxy 
+408 Request Timeout 
+409 Conflito 
+410 Longe 
+411 Length Required 
+412 Requisito Falha 
+413 Request Entity Too Large 
+414 Request-URI Too Large 
+415 Tipo de mídia incompatível 
+416 intervalo solicitado Não Satisfatório 
+417 Expectativa falhada
+
+Códigos de erro no cliente
+400 Bad Request
+401 Unauthorized
+402 Payment Required
+403 Forbidden
+404 Not Found
+405 Method Not Allowed
+406 Not Acceptable
+407 Proxy
+408 Request Timeout
+409 Conflict
+410 Gone
+411 Length Required
+412 Precondition Failed
+413 Request Entity Too Large
+414 Request-URI Too Large
+415 Unsupported Media Type
+416 Requested Range Not Satisfiable
+417 Expectation Failed
+
+Código de erros no Servidor
+500 Internal Server Error
+501 Not Implemented
+502 Bad Gateway
+503 Service Unavailable
+504 Gateway Timeout
+505 HTTP Version not supported
+
+Código de Erros no Servidor 
+500 Internal Server Error 
+501 não implementado 
+502 Bad Gateway 
+503 Service Unavailable 
+504 do Gateway Timeout 
+505 Versão HTTP não suportada

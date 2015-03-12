@@ -1,0 +1,158 @@
+/*
+/
+*/
+
+
+ul,li,ol{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.brand{
+    margin: 25px 0;
+    max-width: 280px;
+}
+
+.navbar-right{
+    margin: 30px 0;
+}
+
+.theme-default .navbar-default .navbar-nav a{
+    font-weight: 400;
+    height: 36px;
+    line-height: 36px;
+}
+
+.theme-default .navbar-default{
+    box-shadow: none;
+    border-bottom: solid 1px #f5f5f5;
+}
+
+
+.items{}
+.items article{
+    padding: 30px 0 50px;
+}
+article{
+    padding: 30px 0 50px;
+}
+.blog article  > h1{
+    font-size: 3.8rem;
+    font-size: 38px;
+    color: #57574B;
+}
+
+.blog article  > h1 a{
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: inherit;
+} 
+
+.blog article p{
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 32px;
+    line-height: 3.2rem;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+    color: #6F6B69;
+    margin: 0 0 18px;
+}
+
+.blog article img{
+    margin: 16px 0;
+}
+
+.blog article .data{
+    margin: 0 0 18px;
+}
+
+.search-wrap{
+    width: 100%;
+}
+
+.footer p{
+    color: #938F8D;
+    line-height: 24px;
+    line-height: 2.4rem;
+}
+
+.sidebar{
+    padding: 50px 0;
+}
+.sidebar .widget{
+    padding: 16px;
+    margin: 0 0 20px;
+    border: solid 1px #e9e9e9;
+}
+.sidebar .widget .widget-title{
+    color: #57574B;
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+    margin-bottom: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    border-bottom: solid 2px #e9e9e9;
+}
+
+.sidebar .widget .widget-title strong{
+    position: relative;
+    font-weight: 600;
+}
+.sidebar .widget .widget-title strong:after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #df5d65;
+}
+
+.search-wrap .form-control{
+    width: 100%;
+    padding-right: 42px;
+}
+
+.theme-default .navbar-default .navbar-nav .social a{
+    padding: 0 10px;
+}
+
+.social-post{
+    margin: 24px 0 0;
+}
+
+.list{}
+.list > li{
+    margin-bottom: 10px;
+}
+.list a{
+    color: #57574B;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 20px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.fb_iframe_widget{
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1199px){
+    .theme-default .navbar-default, .navbar-header {
+        width: auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        /*width: 970px;*/
+    }
+}

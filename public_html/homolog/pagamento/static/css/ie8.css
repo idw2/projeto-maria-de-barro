@@ -1,0 +1,31 @@
+/*body {
+	background-position: top left !important;
+}*/
+
+#google-map {
+	position: relative;
+	height: 295px;
+	overflow: hidden;
+}
+
+#google-map iframe { 
+	position: absolute;
+	top:-5px; 
+	left: -5px;
+}
+
+.big-title-row {
+	line-height: 73px;
+}
+
+#search-box {
+	height: 29px;
+	padding-top: 10px;
+}
+
+.tp-caption img {
+ /* IE hack to avoid HALO Effect in IE8*/
+  background:none\9;/*Targets IE only */
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader();/**/
+}
+

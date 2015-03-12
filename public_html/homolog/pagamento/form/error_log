@@ -1,0 +1,1 @@
+[21-Nov-2014 14:34:50] PHP Fatal error:  Using $this when not in object context in /home/maria951/public_html/homolog/pagamento/form/send-payment.php on line 22

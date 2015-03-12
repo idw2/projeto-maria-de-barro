@@ -1,0 +1,248 @@
+[27-Nov-2014 19:08:00] PHP Fatal error:  Uncaught exception 'Mailchimp_Error' with message 'You must provide a MailChimp API key' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:132
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(11): Mailchimp->__construct()
+#1 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 132
+[27-Nov-2014 19:11:42] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: b1234346' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(19): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:13:02] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: b1234346' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(19): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:13:12] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: b1234346' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(19): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:13:15] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: 499329' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(19): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:13:44] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: 499329' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:14:32] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: 499329' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:15:10] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: 9229fe29ac' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(19): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:15:22] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: 9229fe29ac' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:19:04] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: e65a1db1ca1' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[27-Nov-2014 19:24:00] PHP Fatal error:  Call to undefined method Mailchimp::subscribe() in /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php on line 12
+[27-Nov-2014 19:26:00] PHP Fatal error:  Uncaught exception 'Mailchimp_List_AlreadySubscribed' with message 'joao@desinglab.com.br is already subscribed to the list.' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(19): Mailchimp_Lists->subscribe('0da4cf816f', Array, Array, false, true, false, false)
+#3 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[28-Nov-2014 12:03:10] PHP Fatal error:  Uncaught exception 'Mailchimp_List_AlreadySubscribed' with message 'joao@desinglab.com.br is already subscribed to the list.' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(19): Mailchimp_Lists->subscribe('0da4cf816f', Array, Array, false, true, false, false)
+#3 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[09-Dec-2014 07:12:25 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'The email parameter should include an email, euid, or leid key' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[09-Dec-2014 11:21:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'The email parameter should include an email, euid, or leid key' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_Email_NotExists' with message 'There is no record of the email address """ in your account' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_Email_NotExists' with message 'There is no record of the email address "'" in your account' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:28 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:30 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:32 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:33 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:35 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:38 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:41 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:43 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:44 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:46 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:48 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:48 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:50 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:51 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253
+[11-Feb-2015 07:50:52 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_ValidationError' with message 'An email address must contain a single @' in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php:253
+Stack trace:
+#0 /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home/maria951/public_html/homolog/web-files/emails/float_banner/subscribe.php(20): Mailchimp->call('lists/subscribe', Array)
+#2 {main}
+  thrown in /home/maria951/public_html/homolog/web-files/emails/float_banner/src/Mailchimp.php on line 253

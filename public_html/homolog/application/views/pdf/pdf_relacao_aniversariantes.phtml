@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title><?php echo TITLE . " - " . $view_pagina; ?></title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    </head>
+    <body>
+
+        <div style=" border: 1px solid black; padding: 5px">
+            <table align="center" style="width: 100%">
+                <tr>
+                    <td align="center">
+                        <div><img src="/web-files/img/logo.png" border="0" alt="Maria de Barro" title="Maria de Barro"/></div>
+                        <div><?php echo $view_maria_de_barro; ?></div>
+                        <div style="font-size: 9pt"><b>RELAÇÃO DE ANIVERSARIANTES DO MÊS</b></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <br/>
+        
+        <div>
+
+            <?php if ($view_lista_cadastro == "") { ?>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        ATENÇÃO
+                    </div>
+                    <table class="table">
+                        <tr>
+                            <td>Nada na lista!</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <?php
+            } else {
+                
+                 ?>
+                    <table class="table" style="width: 100%">
+                        <tr style='color: #fff; background: #777'>
+                            <td style="color: #fff; padding: 5px" align='center'></td>
+                            <td style="color: #fff; padding: 5px" align='center'>Data Cadastro</td>
+                            <td style="color: #fff; padding: 5px" align='center'>ID</td>
+                            <td style="color: #fff; padding: 5px" align='center'>Razão Social</td>
+                            <td style="color: #fff; padding: 5px" align='center'>CNPJ</td>
+                        </tr>
+                     <?php
+                     $i=1;
+                foreach ($view_lista_cadastro as $empresa) {
+                    
+                    ($i % 2 == 0 ) ? $background = "style='color: #fff; background: #ccc'" : $background = "";
+                    ?>           
+                   
+                        <tr <?php echo $background; ?>>
+                            <td style="width: 10%; padding: 5px" align='center'><?php echo $i; ?></td>
+                            <td style="width: 10%; padding: 5px" align='center'><?php echo $empresa->DTA; ?></td>
+                            <td style="width: 10%; padding: 5px" align='center'><?php echo $empresa->ID; ?></td>
+                            <td style="width: 10%; padding: 5px" align='center'><?php echo $empresa->NOME_RAZAO_SOCIAL; ?></td>
+                            <td style="width: 20%; padding: 5px" align='center'><?php echo $empresa->CPF_CNPJ; ?></td>
+                        </tr>
+                    
+                    <?php $i++;
+                }
+                
+                ?></table><?php
+                
+            }
+            ?>
+
+
+
+
+        </div>
+
+
+
+    </body>
+</html>
